@@ -19,4 +19,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0226-invert-binary-tree](https://github.com/Viktor-S-Ferreira/LeetCode/tree/master/0226-invert-binary-tree) |
+## Math
+|  |
+| ------- |
+| [0007-reverse-integer](https://github.com/Viktor-S-Ferreira/LeetCode/tree/master/0007-reverse-integer) |
 <!---LeetCode Topics End-->
