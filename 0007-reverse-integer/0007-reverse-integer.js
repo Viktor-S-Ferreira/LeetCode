@@ -9,7 +9,7 @@ var reverse = function(x) {
         result = x%10 + result*10;
         x = (x - x%10)/10;
     }
-    if (result < (-Math.pow(2,31)) || result > (Math.pow(2,31) - 1))
+    if (result < (-(2**31)) || result > (2**31 - 1))
     {  
         return 0;
     }
