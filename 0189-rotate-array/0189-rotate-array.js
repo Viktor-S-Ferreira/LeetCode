@@ -5,17 +5,19 @@
  */
 var rotate = function(nums, k) {
     let aux = new Array();
-    k = k%(nums.length);
+    lengthOfNums = nums.length;
+    k = k%(lengthOfNums);
     let aux2 = [];
+
     for(let i = 0; i < k; i++){
-        aux[i] = nums[nums.length - k + i];
+        aux[i] = nums[lengthOfNums - k + i];
         aux2[i] = aux[i];
     }
-    for(let i = k; i < nums.length; i++){
+    for(let i = k; i < lengthOfNums; i++){
             aux2[i] = nums[i-k];
             nums[i-k] = aux2[i-k];
     }
-    for(let i = nums.length - k; i < nums.length; i++){
+    for(let i = lengthOfNums - k; i < lengthOfNums; i++){
         nums[i] = aux2[i];
     }
     
