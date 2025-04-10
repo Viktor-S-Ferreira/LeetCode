@@ -4,7 +4,7 @@
  * @return {void} Do not return anything, modify nums in-place instead.
  */
 var rotate = function(nums, k) {
-    let aux = new Array();
+    let aux = [];
     lengthOfNums = nums.length;
     k = k%(lengthOfNums);
     let aux2 = [];
