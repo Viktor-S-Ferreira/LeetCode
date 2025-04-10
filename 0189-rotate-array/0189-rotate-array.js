@@ -16,8 +16,8 @@ var rotate = function(nums, k) {
         //console.log(nums);
     }
     //console.log(aux2);
-    for(let i = 0; i < nums.length; i++){
-            aux2[i+k] = nums[i];
+    for(let i = k; i < nums.length; i++){
+            aux2[i] = nums[i-k];
     }
     for(let i = 0; i < nums.length; i++){
         nums[i] = aux2[i];
